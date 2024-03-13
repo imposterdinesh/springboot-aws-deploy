@@ -20,4 +20,8 @@ public class TestController {
     public String getAnime() {
         return "I love anmies ";
     }
+    @GetMapping("/shruti")
+    public String getShruti() {
+        return "shruti is my bestie ";
+    }
 }
